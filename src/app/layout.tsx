@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next"
 
 // Mengimpor font Inter dari Google Fonts
 const inter = Inter({ subsets: ["latin"] });
